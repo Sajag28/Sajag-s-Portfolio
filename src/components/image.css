@@ -1,0 +1,22 @@
+.image{
+    height:460px;
+    width:500px;
+    border-radius:35px;
+}
+@media (max-width: 600px) {
+    .image {
+      height:180px;
+      width: 160px; 
+      border-radius:35px;/* Smaller size for small screens */
+    }
+    .bet{
+        margin-top:0px;
+    }
+  }
+@media (min-width:900px) and (max-width: 1100px) {
+    .image {
+      height:420px;
+      width: 400px; 
+      border-radius:35px;/* Smaller size for small screens */
+    }
+  }
